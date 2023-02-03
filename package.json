@@ -1,0 +1,28 @@
+{
+  "name": "tdworkscreator",
+  "version": "1.0.0",
+  "description": "It enables to create Shared fields quickly with TDWorks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "dev": "nodemon index.js",
+    "start": "npm install && node index.js"
+  },
+  "keywords": [
+    "mgsuite",
+    "tdworks",
+    "chia"
+  ],
+  "author": "Baylinux",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.1.9",
+    "dotenv": "^16.0.0",
+    "https-proxy-agent": "^5.0.1",
+    "node-blob": "0.0.2",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
